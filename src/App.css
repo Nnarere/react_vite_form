@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer{
+  margin: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  margin: 5px;
+}
+
+.containerList{
+  text-align: center;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th {
+  font-weight: bold;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
